@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #a67c52;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1521575107034-e0fa0b594529?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
